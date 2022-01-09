@@ -34,16 +34,13 @@ document.addEventListener('change', (event) => {
 
   // console.log(event.target.checked)
   if (includeUppLetter.checked) {
-
       s1 = str.toUpperCase()
   } else {
       s1 = ''
-      console.log('s1 - else')
   }
 
   if(includeLowLetter.checked) {
       s2 = str
-
   } else {
      s2 = ''
   }
